@@ -1,3 +1,3 @@
 #!/usr/bin/env bash
 
-echo goodbye
+echo hello
