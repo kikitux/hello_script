@@ -3,9 +3,10 @@
 out=$(bash hello.sh)
 
 if [ "${out}" == "hello" ];then
-  echo "Correct output: test success"
+  echo "test pass"
+  exit 0
 else
-  echo "Wrong output: test fails"
-  
+  echo "ERR: test fails"
+  echo "Expected hello, got ${out}"
   exit 1
 fi
